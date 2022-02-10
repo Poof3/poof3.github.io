@@ -1,0 +1,442 @@
+html, body
+  {
+    height: 100%;
+  }
+  
+  body
+  {
+    margin: 0px;
+    padding: 0px;
+    background: #EFEFEF repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 400;
+    color: #8d8d8d;
+  }
+  
+  
+  h1, h2, h3
+  {
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  p, ol, ul
+  {
+    margin-top: 0;
+  }
+  
+  ol, ul
+  {
+    padding: 0;
+    list-style: none;
+  }
+  
+  p
+  {
+    font-size: 1.3em;
+    line-height: 180%;
+  }
+  
+  strong
+  {
+    color: #525252;
+  }
+  
+  a
+  {
+    color: #525252;
+  }
+  
+  a:hover
+  {
+    text-decoration: none;
+  }
+
+  .container
+  {
+    margin: 0px auto;
+    width: 1200px;
+  }
+
+  hr {
+    border: none;
+    color: #56BD78; 
+    background-color: #56BD78; 
+    height: 3px; 
+  }
+  
+/*********************************************************************************/
+/* стиль картинок                                                                */
+/*********************************************************************************/
+
+  .image
+  {
+    display: inline-block;
+  }
+  
+  .image img
+  {
+    display: block;
+    width: 100%;
+  }
+  
+  .image-full
+  {
+    display: block;
+    width: 100%;
+    margin: 0 0 2em 0;
+  }
+  
+  .image-left
+  {
+    float: left;
+    margin: 0 2em 2em 0;
+  }
+  
+  .image-centered
+  {
+    display: block;
+    margin: 0 0 2em 0;
+  }
+  
+  .image-centered img
+  {
+    margin: 0 auto;
+    width: auto;
+  }
+
+/*********************************************************************************/
+/* стиль кнопок                                                                  */
+/*********************************************************************************/
+
+  .button
+  {
+    display: inline-block;
+    padding: 1em 3em 1em 0em;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.90em;
+    color: #333;
+  }
+  
+  .button:before
+  {
+    display: inline-block;
+    background: #8aa2fc;
+    margin-right: 1em;
+    padding: 8px;
+    text-align: center;
+    color: #FFF;
+  }
+    
+/*********************************************************************************/
+/* хидер                                                                         */
+/*********************************************************************************/
+
+  #header
+  {
+    background: #56BD78;
+    border-top: 1px solid #47A665;
+  }
+
+
+/*********************************************************************************/
+/* менюшка                                                                       */
+/*********************************************************************************/
+
+  #menu ul
+  {
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    list-style: none;
+    line-height: normal;
+  }
+  
+  #menu li
+  {
+    display: inline-block;
+  }
+  
+  #menu a
+  {
+    display: block;
+    padding: 1em 2em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF;
+  }
+  
+  #menu .current_page_item a
+  {
+    background: #7BDB99;
+    color: #FFF;
+  }
+
+  #menu a:hover
+  {
+    background: #7BDB99;
+    text-decoration: none;
+    color: #FFF;
+  }
+
+/*********************************************************************************/
+/* баннер                                                                        */
+/*********************************************************************************/
+
+  #banner
+  {
+    margin-bottom: 3em;
+  }
+
+/*********************************************************************************/
+/* страница                                                                      */
+/*********************************************************************************/
+
+  #page-wrapper
+  {
+    padding: 4em 0em 6em 0em;
+    background: #FFF;
+    border-top: 1px solid #47A665;
+  }
+
+  #page
+  {
+    overflow: hidden;
+    padding-top: 6em;
+    border-top: 1px solid #E5E5E5;
+    color: #717171;
+  }
+
+  #page .title
+  {
+    margin-bottom: 2em;
+  }
+  
+  #page .title h2
+  {
+    font-size: 2em;
+    font-weight: 800;
+    color: #333;
+  }
+
+/*********************************************************************************/
+/* контент                                                                       */
+/*********************************************************************************/
+
+  #content
+  {
+    float: left;
+    width: 588px;
+  }
+
+/*********************************************************************************/
+/* сайдбар                                                                       */
+/*********************************************************************************/
+
+  #sidebar
+  {
+    float: right;
+    width: 588px;
+  }
+
+/*********************************************************************************/
+/* футер                                                                         */
+/*********************************************************************************/
+
+  #footer-wrapper
+  {
+    padding: 6em 0em 6em 0em;
+    background: #f4f4f4;
+    border-bottom: 1px solid #EDEDED;
+    border-top: 1px solid #EDEDED;
+  }
+
+  #footer {
+    overflow: hidden;
+    color: #666666;
+  }
+  
+  #footer h2
+  {
+    letter-spacing: 0.10em;
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #333;
+  }
+
+  #footer #fbox1 {
+    float: left;
+    width: 282px;
+    margin-right: 24px;
+  }
+  
+  #footer #fbox2 {
+    float: left;
+    width: 282px;
+    margin-right: 24px;
+  }
+  
+  #footer #fbox3 {
+    float: left;
+    width: 282px;
+  }
+
+  #footer #fbox4 {
+    float: right;
+    width: 282px;
+  }
+
+
+/*********************************************************************************/
+/* права                                                                         */
+/*********************************************************************************/
+
+  #copyright
+  {
+    padding: 6em 0em;
+    font-size: 0.8em;
+    letter-spacing: 0.10em;
+    text-align: center;
+    color: #6A6A6A;
+    float: center;
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+  
+  #copyright a
+  {
+    color: #747474;
+  }
+
+/*********************************************************************************/
+/* контент                                                                       */
+/*********************************************************************************/
+
+  #featured
+  {
+    overflow: hidden;
+    padding-bottom: 6em;
+    color: #717171;
+  }
+  
+  #featured img
+  {
+    margin-bottom: 2em;
+  }
+  
+  #featured .box
+  {
+    padding-bottom: 1.5em;
+  }
+  
+  #featured .title
+  {
+    margin-bottom: 2em;
+  }
+  
+  #featured .title h2
+  {
+    font-size: 2em;
+    font-weight: 800;
+    color: #333;
+  }
+  
+  #featured .subtitle
+  {
+    padding-bottom: 1em;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #333;
+  }
+
+  #featured #box1 {
+    float: left;
+    width: 282px;
+    margin-right: 24px;
+  }
+  
+  #featured #box2 {
+    float: left;
+    width: 282px;
+    margin-right: 24px;
+  }
+  
+  #featured #box3 {
+    float: left;
+    width: 282px;
+  }
+
+  #featured #box4 {
+    float: right;
+    width: 282px;
+  }
+
+/*********************************************************************************/
+/* видео                                                                         */
+/*********************************************************************************/
+
+.video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+/*********************************************************************************/
+/* наведение на картинку                                                         */
+/*********************************************************************************/
+
+.scale {
+    display: inline-block;
+    overflow: hidden; 
+   }
+
+.scale img {
+    transition: 1.5s; 
+    display: block; 
+   }
+
+.scale img:hover {
+    transform: scale(1.3); 
+   }
+
+
+/*********************************************************************************/
+/* кнопка наверх (mybtm)                                                         */
+/*********************************************************************************/
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 10px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #56BD78; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+#myBtn:hover {
+    background-color: #555; 
+}
+
+
+/*********************************************************************************/
+/* чуть-чуть межстрочного интервала для заголовка *это интересно*                */
+/*********************************************************************************/
+
+.interesting {
+  line-height: 2.5;
+}
